@@ -12,6 +12,7 @@ public class RepleaceWordInString {
 		System.out.println("Please enter a statement- ");
 		Scanner sc = new Scanner(System.in);
 		String inString = sc.nextLine();
+		System.out.println(inString);
 		String replaceString = inString.replaceAll("stupid", "*****").replace("fcuk", "****");
 		System.out.println(replaceString);
 	}
