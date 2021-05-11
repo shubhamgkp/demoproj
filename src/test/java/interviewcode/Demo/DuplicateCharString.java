@@ -25,13 +25,16 @@ public class DuplicateCharString {
 				mapValue.put(itrChar, 1);
 			}
 		}
-		Set<Map.Entry<Character, Integer>> setvalue = mapValue.entrySet();
-		for(Map.Entry<Character, Integer> itrMap:setvalue) {
-			
-			if(itrMap.getValue()>1) {
-				
-				System.out.println(itrMap.getKey()+" "+itrMap.getValue());
-			}
-		}
+		
+		System.out.println(mapValue);
+		
+		/*
+		 * Set<Map.Entry<Character, Integer>> setvalue = mapValue.entrySet();
+		 * for(Map.Entry<Character, Integer> itrMap:setvalue) {
+		 * 
+		 * if(itrMap.getValue()>1) {
+		 * 
+		 * System.out.println(itrMap.getKey()+" "+itrMap.getValue()); } }
+		 */
 	}
 }
