@@ -8,21 +8,12 @@ public class Interview {
 
 	public static void main(String[] args) {
 
-		String str = "Keep";
-		String str2 = "peek"; 
-
-		char[] ch1 = str.toCharArray();
-		char[] ch2 = str.toCharArray();
-
-		for(char ch:ch1) {
-
-			for(int i=0;i<ch2.length;i++) {
-
-				for(char ch3:ch2) {
-
-					
-				}
-			}
+		String str = "MyIndiaisgoodIndia";
+		String[] strArray = str.split("y");
+		
+		for(String itrStr:strArray) {
+			
+			System.out.println(itrStr);
 		}
 	}
 }
